@@ -3,7 +3,7 @@ package presentation;
 import ext.DaoImpl2;
 import metier.IMetierImpl;
 
-public class Presentation {
+public class PresentationStatique {
     public static void main(String[] args) {
         DaoImpl2 dao = new DaoImpl2();
         IMetierImpl metier = new IMetierImpl();
